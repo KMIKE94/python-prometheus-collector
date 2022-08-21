@@ -24,7 +24,7 @@ to scrap the `/metrics` endpoint.
 
 ### Screenshot of running
 * Prometheus Service
-![prometheus target screenshot](resources/Screenshot 2022-08-21 at 11.23.50.png)
+![prometheus target screenshot](resources/prometheus.png)
 
 My Prometheus configuration, the port for the `python-app` can be found by running `kubectl get svc` and copying the port for the `prometheus-py` service.
 ```
@@ -38,4 +38,4 @@ scrape_configs:
 ```
 
 * Grafana Dashboard screenshot
-![Grafana dashboard screenshot](resources/Screenshot 2022-08-21 at 11.28.49.png)
+![Grafana dashboard screenshot](resources/grafana.png)
